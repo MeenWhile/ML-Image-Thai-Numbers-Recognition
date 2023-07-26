@@ -49,6 +49,8 @@ Image before cleansing
 Image  after cleansing
 ![image](https://github.com/MeenWhile/recognize-handwritten-Thai-numbers/assets/125643589/eb470d1b-91ad-46f9-901f-0de0a0e07c4b)
 
+### 2.2 Generate dataFrame
+
 จากนั้นเราก็ได้นำ data หลัง cleansing ทั้งหมดมาแปลงเป็น dataFrame ดังนี้
 
 ```python
