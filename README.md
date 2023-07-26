@@ -1,12 +1,16 @@
 # recognize-handwritten-Thai-numbers
 
 ## Objective
+โปรเจ็คนี้เป็นโปรเจ็คที่จัดทำขึ้นเพื่อส่งในวิชา Applied Machine Learning ของสถาบันบัณฑิตพัฒนบริหารศาสตร์(NIDA) โดยวัตถุประสงค์ของโปรเจ็คนี้ คือการสร้าง Machine Learning Model เพื่อจดจำและทำนายตัวเลขภาษาไทยที่เขียนด้วยลายมือ
 
 ## 1. Data Collection & Import Python Packages
 
 ### 1.1 Data Collection
 เริ่มต้น เราได้ทำการเก็บรวบรวมไฟล์รูปภาพที่มีการเขียนตัวเลขภาษาไทยตั้งแต่เลข 0 ถึงเลข 9ไว้ภายในรูป 
 โดยมีตัวเลขละ 40 รูป รวมแล้วเราจะได้ไฟล์รูปภาพที่มีการเขียนตัวเลขภาษาไทยทั้งหมด 400 รูป
+ซึ่งมีตัวอย่างลักษณะของตัวเลขภาษาไทยดังนี้
+
+![image](https://github.com/MeenWhile/recognize-handwritten-Thai-numbers/assets/125643589/d9219534-efa0-45cc-b925-795614c4b78f)
 
 ### 1.2 Import Python Packages
 ต่อมา เราได้ import library ที่จำเป็นในการวิเคราะห์ข้อมูลซึ่งประกอบด้วย
@@ -18,6 +22,7 @@
   6. plotly
   7. pycaret
   8. sklearn
+
 ```python
 import numpy as np
 import pandas as pd
