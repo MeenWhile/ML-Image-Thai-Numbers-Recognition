@@ -230,6 +230,8 @@ model = create_model(best)
 ![image](https://github.com/MeenWhile/recognize-handwritten-Thai-numbers/assets/125643589/f9990526-6b8b-4a27-b500-07b06ac4aadb)
 
 ## 4. Evaluation and Testing Model
+
+### 4.1 Evaluate Model
 เมื่อสร้าง model เสร็จ ต่อไปเราก็นำ model ที่ได้มา evaluate
 
 ```python
@@ -318,6 +320,8 @@ pred_seen = predict_model(model, data = Train)
 ![image](https://github.com/MeenWhile/recognize-handwritten-Thai-numbers/assets/125643589/1b463659-24d2-42e1-b0f7-6e699836c2fa)
 
 โดยผลลัพธ์ที่ได้นั้น เราได้ค่า accuracy เท่ากับ 0.9906 และได้กราฟ ROC กับ กราฟ Confusion matrix ที่ค่อนข้างน่าพอใจ
+
+### 4.2 Testing Model
 
 จากนั้น เราก็นำ model ไป predict กับ test data ต่อเพื่อตรวจสอบว่า model สามารถ predict data ที่ยังไม่เคยเห็นได้ถูกต้องหรือไม่
 
