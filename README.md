@@ -1,7 +1,7 @@
 # Thai Numbers Recognition
 
 ## Objective
-โปรเจ็คนี้เป็นโปรเจ็คที่จัดทำขึ้นเพื่อส่งในวิชา Applied Machine Learning ของสถาบันบัณฑิตพัฒนบริหารศาสตร์(NIDA) โดยวัตถุประสงค์ของโปรเจ็คนี้ คือการสร้าง Machine Learning Model เพื่อจดจำและทำนายตัวเลขภาษาไทยที่เขียนด้วยลายมือ
+วัตถุประสงค์ของโปรเจ็คนี้คือการสร้าง Machine Learning Model เพื่อจดจำและทำนายตัวเลขภาษาไทยที่เขียนด้วยลายมือ
 
 ## 1. Data Collection & Import Python Packages
 
